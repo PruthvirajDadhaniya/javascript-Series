@@ -1,6 +1,7 @@
 // Datatype are uded to categories and represent different types of data
 
 //  primitive datatype
+
 // 1) string
 // 2) Nunmber
 // 3) boolean
@@ -12,3 +13,12 @@
 
 
 // Non-primitive/reference type
+
+// 8) object
+
+// a. Array
+// b. function
+// c. date
+// d. RegEx
+// e. Map,Weakmap
+// f. set,weakset
