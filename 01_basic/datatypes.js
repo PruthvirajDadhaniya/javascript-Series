@@ -54,6 +54,15 @@ var isUnflow = false;
 console.log(isFollow , typeof isFollow );
 console.log(isUnflow , typeof isUnflow );
 
+// null
+
+var car = null;
+console.log(car , typeof car);
+
+// undefined
+
+User;
+console.log(user, typeof user);
 
 
 
