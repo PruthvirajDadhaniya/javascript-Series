@@ -22,3 +22,15 @@
 // d. RegEx
 // e. Map,Weakmap
 // f. set,weakset
+
+// 1) string : A value return inside double quotes or single quotes or back ticks is a string in js
+
+var fName = "Pruthviraj";
+var lName = "Dadhaniya";
+var gender = `Male`;
+
+console.log(fName , typeof fName );
+console.log(lName , typeof lName );
+console.log(gender, typeof gender);
+
+
