@@ -28,9 +28,25 @@
 var fName = "Pruthviraj";
 var lName = "Dadhaniya";
 var gender = `Male`;
+var Age = "18";
 
 console.log(fName , typeof fName );
 console.log(lName , typeof lName );
 console.log(gender, typeof gender);
+console.log(Age , typeof Age);
+
+
+// 2) Number : 
+
+var num = 18;
+var pi = 3.14;
+var p = 10;
+
+console.log(num , typeof num);
+console.log(pi , typeof pi);
+console.log(p , typeof p);
+
+
+
 
 
