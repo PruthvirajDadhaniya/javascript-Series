@@ -46,6 +46,13 @@ console.log(num , typeof num);
 console.log(pi , typeof pi);
 console.log(p , typeof p);
 
+// boolean
+
+var isFollow = true;
+var isUnflow = false;
+
+console.log(isFollow , typeof isFollow );
+console.log(isUnflow , typeof isUnflow );
 
 
 
