@@ -88,7 +88,3 @@ console.log(carModel, typeof carModel);
 console.log(person, typeof person);
 
 
-// 
-
-
-
