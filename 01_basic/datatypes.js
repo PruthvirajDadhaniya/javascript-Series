@@ -107,5 +107,10 @@ percentage(23, 50);
 percentage( 54, 100);
 percentage(100, 200);
 
+// Date
+var Date = new Date();
+console.log(Date, typeof Date);
+
+
 
 
