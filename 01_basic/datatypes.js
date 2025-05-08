@@ -87,4 +87,25 @@ var person = ["Tonny stark", 18 , true];
 console.log(carModel, typeof carModel);
 console.log(person, typeof person);
 
+// Function
+
+console.log(2 + 5);
+console.log(10 + 20);
+console.log(25 + 5);
+
+function sum(a , b) {
+    console.log(a+b);
+}
+sum(10, 12);
+sum( 10,4);
+sum(7, 5);
+
+function percentage(p,q) {
+    console.log((p/q) * 100);
+}
+percentage(23, 50);
+percentage( 54, 100);
+percentage(100, 200);
+
+
 
