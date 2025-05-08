@@ -65,4 +65,19 @@ User;
 console.log(user, typeof user);
 
 
+// Non-primitive/reference type
+
+//  Object 
+
+var student = {
+    fName : "Pruthviraj",
+    lName : "Dadhaniya",
+    Age : 22,
+    isMarried : false,
+};
+
+console.log(student, typeof student);
+
+
+
 
