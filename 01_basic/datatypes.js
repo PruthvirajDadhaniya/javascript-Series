@@ -79,5 +79,16 @@ var student = {
 console.log(student, typeof student);
 
 
+// Array
+
+var carModel = ["jagquar", "Mclaran", "defender", "Thar"];
+var person = ["Tonny stark", 18 , true];
+
+console.log(carModel, typeof carModel);
+console.log(person, typeof person);
+
+
+// 
+
 
 
