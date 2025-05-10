@@ -22,10 +22,17 @@ var r = 5;
 var s = 4;
 
 // post increment
-// post decrement 
+    console.log(p++);
+    
+// post decrement
+    console.log(q--));
+    
 // pre increment
-// pre decrement
+console.log(++r);
 
+// pre decrement
+    console.log(--r);
+    
 
 
 
