@@ -38,3 +38,58 @@ var result = `On ${dob}, ${person}, Was born in a ${family} at ${place} ${place}
 console.log(result);
 
 
+
+// Escape character
+
+var str = "I love 'Javascript'";
+console.log(str);
+
+var str = 'I love "Javascript"';
+console.log(str);
+
+var str = `I love "Javascript"`;
+console.log(str);
+
+var str = `I love 'Javascript'`;
+console.log(str);
+
+var str = "I love \"Javascript\"";  // USING ESCAPE CHARACTER
+var str = 'I love \'Javascript\'';  // USING ESCAPE CHARACTER
+
+var str = "I \nlove\nJavascript";
+var str = `I
+Love
+Javascript`
+
+console.log(str);
+
+
+// practice example
+
+var result = "Sachin Tendulkar (born April 24, 1973, Bombay [Mumbai], India) is an Indian professional cricket player, considered by many to be one of the greatest batsmen of all time.";
+
+var name = "Sachin Tendulkar"
+var birthDate = "born April 24, 1973"
+var place = "Bombay [Mumbai]"
+var country = "India"
+var role = "Indian profedssional cricket player" 
+
+// method 1
+var result1 = name + " (" + birthDate + ", " + place + ", " + country + ") is an " + role + ", considered by many to be one of the greatest batsmen of all time.";
+console.log(result);
+
+
+// method 2 (concat)
+var result2 = "".concat(name, " (", birthDate, ", ", place, ", ", country, ") is an ", role, ", considered by many to be one of the greatest batsmen of all time.");
+console.log(result);
+
+
+// method 3(Template Literals)
+var result3 = `${name} (${birthDate}, ${place}, ${country}) is an ${role}, considered by many to be one of the greatest batsmen of all time.`;
+console.log(result);
+
+
+
+
+
+
